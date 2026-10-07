@@ -10,8 +10,8 @@ app.use(express.json());
 const upload = multer({
     storage: multer.memoryStorage()
 });
+const PORT = process.env.PORT || 3000;
 
-const PORT = 3000;
 
 // IMPORTANT:
 // இங்கே API key-ஐ இப்போ hard-code செய்யாதே.
